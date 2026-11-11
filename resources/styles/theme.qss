@@ -1,0 +1,123 @@
+QWidget {
+    background-color: #080A10;
+    color: #F4F7FC;
+    font-family: "DejaVu Sans";
+    font-size: 13px;
+}
+QMainWindow, #mainBackground {
+    background-color: #080A10;
+}
+#timeCard {
+    background-color: #111722;
+    border: 1px solid #1D2A3C;
+}
+#timeValue {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    background: transparent;
+}
+#timeCaption {
+    color: #718096;
+    font-size: 9px;
+    background: transparent;
+}
+#sectionTitle {
+    color: #8D9BB0;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 2px;
+}
+#lapRow {
+    background-color: #111722;
+    border: 1px solid #1B2635;
+}
+#lapName {
+    color: #E7EDF7;
+    font-weight: 600;
+}
+#lapTotal, #emptyHint {
+    color: #718096;
+    font-size: 11px;
+}
+QPushButton {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: #EAF1FB;
+    background-color: #182231;
+}
+QPushButton:hover {
+    background-color: #24344B;
+}
+QPushButton:disabled {
+    color: #536174;
+    background-color: #121821;
+}
+#controlButton {
+    border-radius: 26px;
+    background-color: #202B3A;
+    font-size: 19px;
+    padding: 0;
+}
+#controlButton:hover {
+    background-color: #2D3C51;
+}
+#primaryControl {
+    border-radius: 26px;
+    background-color: #1675EF;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 0;
+}
+#primaryControl:hover {
+    background-color: #3289FF;
+}
+#primaryControl:disabled {
+    background-color: #26364B;
+}
+#quickButton {
+    background-color: #17253A;
+    color: #75AEFF;
+    font-weight: 700;
+    min-height: 30px;
+}
+#keyButton {
+    background-color: #151E2B;
+    border: 1px solid #202D3E;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px 8px;
+}
+#keyButton:hover {
+    background-color: #23334A;
+}
+#navButton {
+    min-width: 145px;
+    border-radius: 18px;
+    background-color: #141C28;
+    color: #8795A9;
+    font-weight: 700;
+}
+#navButton:checked {
+    background-color: #176FE0;
+    color: #FFFFFF;
+}
+#exitButton {
+    border-radius: 20px;
+    background-color: #202B3A;
+    color: #F06C78;
+    font-size: 21px;
+    padding: 0;
+}
+#timerStatus {
+    color: #8FA0B8;
+    font-size: 11px;
+}
+QScrollArea {
+    border: none;
+    background: transparent;
+}
+QScrollArea QWidget {
+    background: transparent;
+}
